@@ -5,6 +5,21 @@
       <map>
         <entry key="..\:/Users/steve/Desktop/VeggieBuddy/app/src/main/res/layout/activity_login.xml" value="0.5" />
         <entry key="..\:/Users/steve/Desktop/VeggieBuddy/app/src/main/res/layout/activity_main.xml" value="0.575" />
+        <entry key="app/src/main/res/drawable-v24/gray_rounded_button.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/green_rounded_button.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/lock.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/message.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/orange_rounded_button.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/rounded_button.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/show.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/white_rounded_button.xml" value="0.222" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2673095703125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.25969187418619794" />
+        <entry key="app/src/main/res/layout/fragment_activity.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/fragment_favorites.xml" value="0.27447916666666666" />
       </map>
     </option>
   </component>
@@ -13,5 +28,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.25950469970703127" />
+      </ProjectState>
+    </option>
   </component>
 </project>
