@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/steve/Desktop/VeggieBuddy/app/src/main/res/drawable/vegandish.xml" value="0.1" />
+        <entry key="..\:/Users/steve/Desktop/VeggieBuddy/app/src/main/res/layout/activity_home_screen.xml" value="0.5" />
         <entry key="..\:/Users/steve/Desktop/VeggieBuddy/app/src/main/res/layout/activity_login.xml" value="0.5" />
         <entry key="..\:/Users/steve/Desktop/VeggieBuddy/app/src/main/res/layout/activity_main.xml" value="0.575" />
       </map>
