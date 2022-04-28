@@ -109,7 +109,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="200dp" >
+                android:layout_height="200dp">
 
                 <TextView
                     android:id="@+id/textView10"
@@ -137,7 +137,7 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:orientation="horizontal" >
+                        android:orientation="horizontal">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
@@ -153,7 +153,7 @@
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
                                 app:layout_constraintVertical_bias="0.0"
-                                app:srcCompat="@drawable/kung" />
+                                app:srcCompat="@drawable/dish2" />
 
                             <ImageButton
                                 android:id="@+id/wfwefewfwef"
@@ -188,7 +188,7 @@
                                 android:shadowDx="5"
                                 android:shadowDy="5"
                                 android:shadowRadius="5"
-                                android:text="Kung Pow!"
+                                android:text="Broccoli Pasta"
                                 android:textColor="#FFFFFF"
                                 android:textSize="16dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
@@ -229,7 +229,7 @@
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                app:srcCompat="@drawable/nachos" />
+                                app:srcCompat="@drawable/peppers" />
 
                             <ImageButton
                                 android:id="@+id/fqwefwefq"
@@ -264,7 +264,7 @@
                                 android:shadowDx="5"
                                 android:shadowDy="5"
                                 android:shadowRadius="5"
-                                android:text="Tasty Bean Nachos"
+                                android:text="Stuffed Pappers"
                                 android:textColor="#FFFFFF"
                                 android:textSize="16dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
@@ -307,7 +307,7 @@
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
                                 app:layout_constraintVertical_bias="0.0"
-                                app:srcCompat="@drawable/veganmeal2" />
+                                app:srcCompat="@drawable/orange" />
 
                             <ImageButton
                                 android:id="@+id/vewvqrvq"
@@ -342,7 +342,7 @@
                                 android:shadowDx="5"
                                 android:shadowDy="5"
                                 android:shadowRadius="5"
-                                android:text="Spinach Creme Corn"
+                                android:text="Orange Cucumber"
                                 android:textColor="#FFFFFF"
                                 android:textSize="16dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
@@ -378,7 +378,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="200dp" >
+                android:layout_height="200dp">
 
                 <TextView
                     android:id="@+id/topic"
@@ -406,7 +406,7 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:orientation="horizontal" >
+                        android:orientation="horizontal">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
@@ -422,7 +422,7 @@
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
                                 app:layout_constraintVertical_bias="0.0"
-                                app:srcCompat="@drawable/kung" />
+                                app:srcCompat="@drawable/tofu" />
 
                             <ImageButton
                                 android:id="@+id/secondqwcqwc"
@@ -440,7 +440,7 @@
                                 android:id="@+id/secondfqwefqwef"
                                 android:layout_width="28dp"
                                 android:layout_height="19dp"
-                                android:text="3.5"
+                                android:text="2.3"
                                 app:layout_constraintBottom_toBottomOf="@+id/secondqwcqwc"
                                 app:layout_constraintEnd_toEndOf="@+id/secondqwcqwc"
                                 app:layout_constraintHorizontal_bias="0.514"
@@ -457,7 +457,7 @@
                                 android:shadowDx="5"
                                 android:shadowDy="5"
                                 android:shadowRadius="5"
-                                android:text="Kung Pow!"
+                                android:text="Tofu Slammer"
                                 android:textColor="#FFFFFF"
                                 android:textSize="16dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
@@ -475,7 +475,7 @@
                                 android:shadowDx="5"
                                 android:shadowDy="5"
                                 android:shadowRadius="2"
-                                android:text="30 minutes"
+                                android:text="60 minutes"
                                 android:textColor="#FFFFFF"
                                 android:textSize="16dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
@@ -498,7 +498,7 @@
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                app:srcCompat="@drawable/nachos" />
+                                app:srcCompat="@drawable/sweetandsour" />
 
                             <ImageButton
                                 android:id="@+id/secondfqwefwefq"
@@ -516,7 +516,7 @@
                                 android:id="@+id/secondqweqew"
                                 android:layout_width="28dp"
                                 android:layout_height="19dp"
-                                android:text="4.8"
+                                android:text="5.0"
                                 app:layout_constraintBottom_toBottomOf="@+id/secondfqwefwefq"
                                 app:layout_constraintEnd_toEndOf="@+id/secondfqwefwefq"
                                 app:layout_constraintHorizontal_bias="0.514"
@@ -533,7 +533,7 @@
                                 android:shadowDx="5"
                                 android:shadowDy="5"
                                 android:shadowRadius="5"
-                                android:text="Tasty Bean Nachos"
+                                android:text="Sweet and Sour Beans"
                                 android:textColor="#FFFFFF"
                                 android:textSize="16dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
@@ -551,7 +551,7 @@
                                 android:shadowDx="5"
                                 android:shadowDy="5"
                                 android:shadowRadius="2"
-                                android:text="20 minutes"
+                                android:text="90 minutes"
                                 android:textColor="#FFFFFF"
                                 android:textSize="16dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
@@ -576,7 +576,7 @@
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
                                 app:layout_constraintVertical_bias="0.0"
-                                app:srcCompat="@drawable/veganmeal2" />
+                                app:srcCompat="@drawable/latte" />
 
                             <ImageButton
                                 android:id="@+id/secondvewvqrvq"
@@ -594,7 +594,7 @@
                                 android:id="@+id/secondergergewrg"
                                 android:layout_width="28dp"
                                 android:layout_height="19dp"
-                                android:text="4.2"
+                                android:text="4.6"
                                 app:layout_constraintBottom_toBottomOf="@+id/secondvewvqrvq"
                                 app:layout_constraintEnd_toEndOf="@+id/secondvewvqrvq"
                                 app:layout_constraintHorizontal_bias="0.514"
@@ -611,7 +611,7 @@
                                 android:shadowDx="5"
                                 android:shadowDy="5"
                                 android:shadowRadius="5"
-                                android:text="Spinach Creme Corn"
+                                android:text="Ice Latte Special"
                                 android:textColor="#FFFFFF"
                                 android:textSize="16dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
@@ -709,7 +709,7 @@
                                 android:id="@+id/thirdfqwefqwef"
                                 android:layout_width="28dp"
                                 android:layout_height="19dp"
-                                android:text="3.5"
+                                android:text="4.7"
                                 app:layout_constraintBottom_toBottomOf="@+id/thirdqwcqwc"
                                 app:layout_constraintEnd_toEndOf="@+id/thirdqwcqwc"
                                 app:layout_constraintHorizontal_bias="0.514"
@@ -785,7 +785,7 @@
                                 android:id="@+id/thirdqweqew"
                                 android:layout_width="28dp"
                                 android:layout_height="19dp"
-                                android:text="4.8"
+                                android:text="3.4"
                                 app:layout_constraintBottom_toBottomOf="@+id/thirdfqwefwefq"
                                 app:layout_constraintEnd_toEndOf="@+id/thirdfqwefwefq"
                                 app:layout_constraintHorizontal_bias="0.514"
@@ -863,7 +863,7 @@
                                 android:id="@+id/thirdergergewrg"
                                 android:layout_width="28dp"
                                 android:layout_height="19dp"
-                                android:text="4.2"
+                                android:text="2.8"
                                 app:layout_constraintBottom_toBottomOf="@+id/thirdvewvqrvq"
                                 app:layout_constraintEnd_toEndOf="@+id/thirdvewvqrvq"
                                 app:layout_constraintHorizontal_bias="0.514"
