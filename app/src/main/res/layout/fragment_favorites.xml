@@ -1,13 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FavoritesFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Here are your favorite recipes." />
+    <TableLayout
+        android:layout_width="409dp"
+        android:layout_height="133dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="198dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/trendimg3"
+                    android:layout_width="180dp"
+                    android:layout_height="140dp"
+                    android:layout_marginStart="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/kung"
+                    tools:layout_editor_absoluteY="-4dp" />
+
+                <ImageButton
+                    android:id="@+id/wfwefewfwef"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:backgroundTint="#00FFFFFF"
+                    app:layout_constraintStart_toEndOf="@+id/qwefqwefw"
+                    app:layout_constraintTop_toTopOf="@+id/trendimg3"
+                    app:srcCompat="@drawable/bg" />
+
+                <TextView
+                    android:id="@+id/fqwefqwef"
+                    android:layout_width="28dp"
+                    android:layout_height="19dp"
+                    android:text="3.5"
+                    app:layout_constraintBottom_toBottomOf="@+id/wfwefewfwef"
+                    app:layout_constraintEnd_toEndOf="@+id/wfwefewfwef"
+                    app:layout_constraintHorizontal_bias="0.514"
+                    app:layout_constraintStart_toStartOf="@+id/wfwefewfwef"
+                    app:layout_constraintTop_toTopOf="@+id/wfwefewfwef"
+                    app:layout_constraintVertical_bias="0.38" />
+
+                <TextView
+                    android:id="@+id/qwfqwfwef"
+                    android:layout_width="160dp"
+                    android:layout_height="29dp"
+                    android:gravity="center"
+                    android:shadowColor="#000000"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    android:shadowRadius="5"
+                    android:text="Kung Pow!"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/trendimg3"
+                    app:layout_constraintStart_toStartOf="@+id/trendimg3" />
+
+                <TextView
+                    android:id="@+id/qwefqwefw"
+                    android:layout_width="108dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="12dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    android:shadowRadius="2"
+                    android:text="30 minutes"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    app:layout_constraintStart_toStartOf="@+id/trendimg3"
+                    app:layout_constraintTop_toTopOf="@+id/trendimg3" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </TableRow>
+
+    </TableLayout>
 
 </FrameLayout>
