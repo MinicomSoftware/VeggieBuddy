@@ -16,7 +16,7 @@ public class Login extends Activity {
     }
 
     public void sendMessage(View view) {
-        Intent intent = new Intent(Login.this, Profile.class);
+        Intent intent = new Intent(Login.this, HomeScreen.class);
         startActivity(intent);
     }
 }
