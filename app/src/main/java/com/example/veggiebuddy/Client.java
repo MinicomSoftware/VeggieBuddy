@@ -7,7 +7,7 @@ package com.example.veggiebuddy;
 public class Client {
 
 
-
+    public static String SEARCH = "";
 
 }
 

@@ -14,11 +14,12 @@ public class HomeScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_home_screen);
+
 
         /*
         Going to be part of every activity
          */
-        setContentView(R.layout.activity_home_screen);
         ActionBar actionBar = getSupportActionBar();        //hides the top bar
         actionBar.hide();
         ImageView profile = findViewById(R.id.profile);
@@ -162,6 +163,7 @@ public class HomeScreen extends AppCompatActivity {
         search.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String s) {
+                Client.SEARCH = s;
                 Intent intent = new Intent();
                 intent.setClass(getApplicationContext(), Search.class);
                 startActivity(intent);
