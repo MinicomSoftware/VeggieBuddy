@@ -129,8 +129,8 @@
                     android:id="@+id/text3231"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="36dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="24dp"
                     android:text="4 servings"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/imageView9"
@@ -271,14 +271,118 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
                 <Button
-                    android:id="@+id/subbutton"
+                    android:id="@+id/subbutton1"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
-                    android:layout_marginStart="52dp"
-                    android:layout_marginTop="96dp"
+                    android:layout_marginStart="164dp"
+                    android:layout_marginTop="36dp"
                     android:text="Substitute"
-                    app:layout_constraintStart_toEndOf="@+id/editable1"
+                    app:layout_constraintStart_toEndOf="@+id/imageView10"
                     app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+                <Button
+                    android:id="@+id/subbutton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="164dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Substitute"
+                    app:layout_constraintStart_toEndOf="@+id/imageView11"
+                    app:layout_constraintTop_toBottomOf="@+id/subbutton1" />
+
+                <Button
+                    android:id="@+id/subbutton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="164dp"
+                    android:layout_marginTop="120dp"
+                    android:text="Substitute"
+                    app:layout_constraintStart_toEndOf="@+id/imageView12"
+                    app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+                <Button
+                    android:id="@+id/subbutton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="164dp"
+                    android:layout_marginTop="160dp"
+                    android:text="Substitute"
+                    app:layout_constraintStart_toEndOf="@+id/imageView13"
+                    app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/popup"
+                    android:layout_width="292dp"
+                    android:layout_height="315dp"
+                    android:layout_marginStart="52dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#FFFFFF"
+                    android:translationZ="90dp"
+                    android:visibility="invisible"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/view">
+
+                    <TextView
+                        android:id="@+id/submessage"
+                        android:layout_width="255dp"
+                        android:layout_height="47dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:text="TextView"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/subItem1"
+                        android:layout_width="257dp"
+                        android:layout_height="52dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:background="#FFFFFF"
+                        android:backgroundTint="#FB4747"
+                        android:foregroundTint="#FFFFFF"
+                        android:text="Button"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/submessage" />
+
+                    <Button
+                        android:id="@+id/subItem2"
+                        android:layout_width="257dp"
+                        android:layout_height="52dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:background="#FFFFFF"
+                        android:foregroundTint="#FFFFFF"
+                        android:text="Button"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/subItem1" />
+
+                    <Button
+                        android:id="@+id/subItem3"
+                        android:layout_width="257dp"
+                        android:layout_height="52dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="72dp"
+                        android:background="#FFFFFF"
+                        android:foregroundTint="#FFFFFF"
+                        android:text="Button"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/subItem1" />
+
+                    <Button
+                        android:id="@+id/canclebtn"
+                        android:layout_width="143dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="72dp"
+                        android:layout_marginTop="8dp"
+                        android:background="#FFFFFF"
+                        android:backgroundTint="#EA2929"
+                        android:backgroundTintMode="add"
+                        android:foregroundTint="#FFFFFF"
+                        android:text="Cancel"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/subItem3" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <View
                     android:id="@+id/view3"
@@ -332,6 +436,7 @@
                     app:layout_constraintBottom_toTopOf="@+id/addtocart"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/linee" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
