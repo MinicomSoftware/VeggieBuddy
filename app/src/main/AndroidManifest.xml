@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VeggieBuddy">
         <activity
+            android:name=".PickupActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+        <activity
             android:name=".ShoppingCart"
             android:exported="false" />
         <activity
@@ -27,7 +31,7 @@
         <activity
             android:name=".Login"
             android:exported="false"
-            android:theme="@android:style/Theme.Material.Light.NoActionBar"/>
+            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
