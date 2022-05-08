@@ -9,7 +9,7 @@
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="409dp"
-        android:layout_height="640dp"
+        android:layout_height="650dp"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -104,7 +104,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="900dp">
+                android:layout_height="950dp">
 
                 <TextView
                     android:id="@+id/textView15"
@@ -422,11 +422,21 @@
                     app:layout_constraintTop_toBottomOf="@+id/youtube" />
 
                 <Button
+                    android:id="@+id/review"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="152dp"
+                    android:layout_marginTop="36dp"
+                    android:text="Reviews"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linee" />
+
+                <Button
                     android:id="@+id/addtocart"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="84dp"
-                    android:layout_marginTop="68dp"
+                    android:layout_marginTop="90dp"
                     android:text="Add ingredients to cart"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/linee" />
@@ -440,7 +450,8 @@
                     android:textSize="18dp"
                     app:layout_constraintBottom_toTopOf="@+id/addtocart"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/linee" />
+                    app:layout_constraintTop_toBottomOf="@+id/linee"
+                    app:layout_constraintVertical_bias="0.069" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

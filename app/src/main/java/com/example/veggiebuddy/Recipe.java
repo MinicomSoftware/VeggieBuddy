@@ -190,6 +190,18 @@ public class Recipe extends AppCompatActivity {
 
             }
         });
+
+
+        Button review = findViewById(R.id.review);
+        review.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(getApplicationContext(), Reviews.class);
+                startActivity(intent);
+
+            }
+        });
     }
 
     private void setSwapBtnMessages() {
