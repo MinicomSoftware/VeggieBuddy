@@ -10,6 +10,16 @@
         <entry key="..\:/Users/steve/Desktop/VeggieBuddy/app/src/main/res/layout/activity_profile.xml" value="0.33" />
         <entry key="..\:/Users/steve/Desktop/VeggieBuddy/app/src/main/res/layout/activity_recipe.xml" value="0.33" />
         <entry key="..\:/Users/steve/Desktop/VeggieBuddy/app/src/main/res/layout/activity_search.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_home_screen.xml" value="0.36772508251574604" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/activity_pickup.xml" value="0.3533838907877605" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/activity_recipe.xml" value="0.37857767740885423" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/activity_shopping_cart.xml" value="0.3180533230536282" />
+        <entry key="app/src/main/res/layout/fragment_activity.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/fragment_favorites.xml" value="0.41812235514322926" />
       </map>
     </option>
   </component>
