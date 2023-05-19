@@ -28,3 +28,5 @@ Vegans who are inexperienced with cooking (such as young vegans and college stud
   Albert Hu - User research<br>
 	Eduardo Huerta-Mercado - UI design<br>
 	Fang Hu - Coding<br>
+
+# Final Grade: A+
