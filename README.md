@@ -17,10 +17,11 @@ An application that integrates vegan grocery shopping with a recipe book. You ca
 Vegans who are inexperienced with cooking (such as young vegans and college student vegans) and new vegans. If they are a vegan inexperienced with cooking, they don't know what ingredients to buy at all for their recipes in mind or even what recipes to cook, so they would want to know how to cook vegan stuff and be able to instantly order those things to be able to cook at home. If they are a new vegan, they might be experienced at cooking and have recipes in mind where they know the ingredients and how to cook it but don't know what vegan ingredients to substitute or how to cook it the vegan way so they would want to know the vegan recipes.
 
 # Low Fidelity Design
-![1](https://github.com/MinicomSoftware/VeggieBuddy/assets/29552915/2cd168f7-958a-4d37-9ec5-7fc240294d5d)
-![2](https://github.com/MinicomSoftware/VeggieBuddy/assets/29552915/95312f41-f0d2-4170-9137-7f7584c54b1a)
-![3](https://github.com/MinicomSoftware/VeggieBuddy/assets/29552915/7333292e-41b0-4a28-990c-2cbe58d8037e)
-![4](https://github.com/MinicomSoftware/VeggieBuddy/assets/29552915/21ea1bbe-decf-4435-889d-2ccfc8fb0bb1)
+![1](https://github.com/MinicomSoftware/VeggieBuddy/assets/29552915/f325e31b-6679-4ff2-ad3b-2cf6ecfb9630)
+![2](https://github.com/MinicomSoftware/VeggieBuddy/assets/29552915/16f34207-1c24-461c-a4e9-7c4ef03b9e0d)
+![3](https://github.com/MinicomSoftware/VeggieBuddy/assets/29552915/56fa802a-3217-499a-9dd6-d1fcf5e55391)
+![4](https://github.com/MinicomSoftware/VeggieBuddy/assets/29552915/382d52a6-e3ac-4640-86c6-842bab00297a)
+
 
 # Team Members
   Steven Wilson - Team Lead, coding, and user research<br>
